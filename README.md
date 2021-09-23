@@ -1,2 +1,5 @@
-# internationalsportsolutions.github.io
-The repository for the ISSO website.
+# Internation Sport Solution Org. - ISSO
+
+internationasportsolution.org
+
+The repository that holds content to power up the isso website.
