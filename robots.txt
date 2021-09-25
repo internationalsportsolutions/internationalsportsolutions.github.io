@@ -1,3 +1,5 @@
+#What are you doing here huh? -.-
+
 User-agent: Googlebot
 Disallow: 
 /nav
