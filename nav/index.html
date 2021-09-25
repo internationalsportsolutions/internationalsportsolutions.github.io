@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ISSO - Home</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://unpkg.com/swiper/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body oncontextmenu="return false;">
+    <script type="text/javascript">
+      function redirectToPreviousPage() {
+    debugger;
+    var previousUrl = document.referrer;
+    if (previousUrl !== window.location.href) {
+        window.location.href = previousUrl;
+    } else {
+        history.go(-1);
+        return false;
+    }
+}
+    if (screen.width > 699) {
+    redirectToPreviousPage()
+    }
+    </script>
+<div class="closebt"><a href="/"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg></a></div>
+<p><b><h2><a href="/">Home</a></h2></b></p>
+<p><b><h2><a href="/contact">Contact</a></h2></b></p>
+<p><b><h2><a href="https://qatar.internationalsportsolutions.org/">Qatar 2022™</a></h2></b></p>
+</body>
+</html>
