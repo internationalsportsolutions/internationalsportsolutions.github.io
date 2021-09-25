@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Disallow: 
+/nav
+/htaccess
+/CNAME
+
+User-agent: ISSOmedia-partners
+Disallow:
+
+User-agent: *
+Disallow: 
+/LICENSE
+/README.md
+/htaccess
+/CNAME
