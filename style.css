@@ -33,7 +33,6 @@ h3 {
 
 body {
   font-family: var(--body-font);
-  background-color: #e7dfcf;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +46,13 @@ body {
   body {
     padding: 0;
   }
+}
+
+
+
+
+.bg1 {
+    background-color: #e7dfcf;
 }
 
 .container {
