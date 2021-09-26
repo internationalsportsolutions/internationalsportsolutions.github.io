@@ -392,19 +392,19 @@ body {
   transform: scale(1.6);
 }
 
-[data-sld="1"] body,
+[data-sld="1"] .body,
 [data-sld="1"] .container,
 [data-sld="1"] .header {
   background-color: var(--savanna-bg);
 }
 
-[data-sld="2"] body,
+[data-sld="2"] .body,
 [data-sld="2"] .container,
 [data-sld="2"] .header {
   background-color: var(--glacier-bg);
 }
 
-[data-sld="3"] body,
+[data-sld="3"] .body,
 [data-sld="3"] .container,
 [data-sld="3"] .header {
   background-color: var(--coral-bg);
